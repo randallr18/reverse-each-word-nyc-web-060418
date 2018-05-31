@@ -16,4 +16,5 @@ def reverse_each_eord(string)
     x.reverse
   end
   
+  array.join
 end
