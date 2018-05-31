@@ -17,5 +17,5 @@ def reverse_each_word(string)
     words_reversed.push(x.reverse)
   end
   
-  words_reversed
+  words_reversed.join(' ')
 end
