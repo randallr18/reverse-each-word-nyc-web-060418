@@ -11,10 +11,9 @@ end
 
 def reverse_each_eord(string)
     array = string.split(' ')
-  words_reversed = []
   
   array.collect do |x|
-    words_reversed.push(x.reverse)
+    x.reverse
   end
   
 end
