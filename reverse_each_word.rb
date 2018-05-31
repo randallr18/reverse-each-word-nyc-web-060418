@@ -11,11 +11,9 @@ end
 
 def reverse_each_word_first(string)
     array = string.split(' ')
-  words_reversed = []
   
   array.collect do |x|
-    words_reversed.push(x.reverse)
+    x.reverse
+    array.join(' ')
   end
-  
-  words_reversed.join(' ')
 end
