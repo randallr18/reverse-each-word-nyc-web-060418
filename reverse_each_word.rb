@@ -9,7 +9,7 @@ def reverse_each_word(string)
   words_reversed.join(' ')
 end
 
-def reverse_each_word(string)
+def reverse_each_word_first(string)
     array = string.split(' ')
   
   array.collect do |x|
