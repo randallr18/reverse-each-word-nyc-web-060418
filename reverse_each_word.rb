@@ -11,9 +11,11 @@
 
 def reverse_each_word(string)
     array = string.split(' ')
-  
+    
+    words_reversed = []
   array.collect do |x|
-    x.reverse
+    words_reversed.push(x.reverse)
   end
   
+  words_reversed
 end
